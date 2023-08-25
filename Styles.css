@@ -176,7 +176,7 @@
     /*background: #819bb9;
     background: -webkit-linear-gradient(to right, #819bb9, #819bb9);
     background: linear-gradient(to right, #819bb9, #819bb9);*/
-    background: img(https://raw.githubusercontent.com/Gelooooooooo/masaito/main/MDC%20Company%20Profile.jpg) no-repeat center; 
+    background: img src ="https://raw.githubusercontent.com/Gelooooooooo/masaito/main/MDC%20Company%20Profile.jpg" no-repeat center; 
     background-size: cover;
     position: relative;
     
