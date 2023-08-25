@@ -107,7 +107,7 @@
     background: -webkit-linear-gradient(to right, #819bb9, #819bb9);
     background: linear-gradient(to right, #819bb9, #819bb9);
     height: 100%;
-    width: 0;
+    width: 100%;
     position: fixed;
     display: flex;
     flex-direction: column;
