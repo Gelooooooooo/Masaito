@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyBWJZEskPie6CdXBYNeiXj5tS7rSZvTPdveI8NOVtvRveM0afKcLz0-AUy0BXVzSL9/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzRoGtvyB-aa6FO2LuWcDEaLMc3uJaPbDMXpuTRP6AxRRa_T2IKZLTP34sNsWCJ6qXP/exec'
 
 const form = document.forms['MDC_Website_Data']
 
