@@ -43,7 +43,7 @@
     font-size: 24px;
     border: none;
     background: #29323c;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     padding: 15px 20px;
     border-radius: 50%;
@@ -57,6 +57,7 @@
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    /*background-color: #cbcdd1c0;*/
   }
   
   .nav-container {
@@ -184,14 +185,14 @@
   }
   
   .hero a {
-    border: 3px double rgb(31, 47, 187);
+    border: 3px double #3a48c5c5;
     text-decoration: none;
-    color: rgb(31, 47, 187);
+    color: #3a48c5c5;
     transition: var(--transition-fast);
   }
   
   .hero a:hover {
-    background-color: rgb(31, 47, 187);
+    background-color: #3a48c5c5;
     color: black;
   }
   
@@ -203,6 +204,7 @@
   
   .content {
     padding: 50px;
+    /*background-color: #a8aeb4;*/
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
@@ -261,9 +263,9 @@
   .testimonials {
     min-height: 300px;
     height: auto;
-    background: #485563;
-    background: -webkit-linear-gradient(to right, #29323c, #485563);
-    background: linear-gradient(to right, #29323c, #485563);
+    background: #7da7d4;
+    background: -webkit-linear-gradient(to right, #7da7d4, #7da7d4);
+    background: linear-gradient(to right, #7da7d4, #7da7d4);
   }
   
   .testimonials h2 {
@@ -325,7 +327,7 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: rgba(153, 255, 187, 0.2);
+    background-color: rgba(185, 185, 185, 0.295);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -368,13 +370,14 @@
   .why-us {
     min-height: 300px;
     height: auto;
-    background: #485563;
-    background: -webkit-linear-gradient(to right, #29323c, #485563);
-    background: linear-gradient(to right, #29323c, #485563);
+    background: #bfc0c2;
+    background: -webkit-linear-gradient(to right, #7da7d4, #7da7d4);
+    background: linear-gradient(to right, #7da7d4, #7da7d4);
   }
   
   .why-us h2 {
     color: white;
+    background: #7da7d4;
   }
   
   .why-us .container {
@@ -410,9 +413,8 @@
   }
   
   .contact form {
-    background: #485563;
-    background: -webkit-linear-gradient(to right, #29323c, #485563);
-    background: linear-gradient(to right, #29323c, #485563);
+    background: -webkit-linear-gradient(to right, #7da7d4, #7da7d4);
+    background: linear-gradient(to right, #7da7d4, #7da7d4);*/
   }
   
   .contact .form .container {
@@ -450,7 +452,7 @@
   }
   
   .contact .form input[type="submit"] {
-    border: 3px solid rgb(153, 255, 187);
+    border: 3px solid #0e6d2e;
     text-decoration: none;
     color: rgb(153, 255, 187);
     transition: var(--transition-fast);
@@ -462,19 +464,20 @@
     background-color: rgba(153, 255, 187, 0.7);
     color: black;
   }
-  
+
   /*Footer*/
   .footer {
     min-height: 80px;
-    background: #485563;
-    background: -webkit-linear-gradient(to right, #29323c, #485563);
-    background: linear-gradient(to right, #29323c, #485563);
+    width: 100%;
+    background: #7da7d4;
+    background: -webkit-linear-gradient(to bottom, #7da7d4, #7da7d4);
+    background: linear-gradient(to bottom, #7da7d4, #7da7d4);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
   }
-  
+
   @media screen and (max-width: 1200px) {
     .container {
       width: 80%;
@@ -503,6 +506,7 @@
     .nav-container .links {
       display: none;
     }
+
   
     .mobile-button {
       display: flex;
@@ -585,12 +589,14 @@
     .contact {
       flex-direction: column;
       justify-content: center;
+      
     }
   
     .contact .short-contact {
       width: 100%;
       min-height: 0;
       justify-content: center;
+
     }
   
     .contact .short-contact h2 {
@@ -622,13 +628,14 @@
   
     #back-to-top {
       display: none !important;
+      background: #fcfcfc !important;    
     }
   
     .navigation {
       position: sticky;
       top: 0;
       z-index: 999;
-      background: rgba(252, 252, 252, 1) !important;
+      background: #fcfcfc !important;
     }
   
     .mobile-links .closebtn {
